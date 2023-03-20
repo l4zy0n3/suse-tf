@@ -9,3 +9,13 @@
 project = "your-project-id"
 credentials = "path-to-your-key-file"
 ```
+
+Then run
+```
+terraform init
+terraform plan
+```
+Verify the resources then run
+```
+terraform apply
+```
